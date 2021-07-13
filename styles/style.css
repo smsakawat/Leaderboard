@@ -3,23 +3,25 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color:  #F3F1FF;
+    margin:0;
 }
 /* navbar styles */
+
+
+
 .nav-bar{
     list-style-type: none;
 	margin: 0;
 	padding: 20px 15px;
-	background-color: lightseagreen;
+    background-color:rgba(35, 112, 226, 0.727) ;
+    display: flex;
+    justify-content: space-between;
+   
+    
 	
     
 }
-.nav-item{
-    margin-left: 40px;
-    margin-right: 40px;
-    display: flex;
-    justify-content: space-between;
-    
-}
+
 .nav-bar a{
     text-decoration: none;
 	font-family: Cambria, serif;
@@ -28,13 +30,12 @@ body{
 	font-weight: 600;
 	text-transform: normal;
 	letter-spacing: normal;
-	line-height: 1.3em;
-	color: #333738;
+	color: #2e2f30;
     padding-right: 30px;
     
 }
 .nav-bar a:hover {
-    border-bottom:3px solid red ;
+    color:rgb(216, 216, 216)
     
 }
 
@@ -65,8 +66,10 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
 }
+
+
 .player{
     display: flex;
     align-items: center;
@@ -75,6 +78,10 @@ main{
 .player img{
     width: 56px;
     height: 56px;
+}
+.player img:hover{
+    border: 3px solid rgb(42, 117, 230);
+    border-radius:30px;
 }
 .player-name{
     margin-left: 16px;
@@ -98,6 +105,10 @@ hr{
 .blog .thumbnail img{
     width: 177px;
     height: 117px;
+}
+.blog .thumbnail img:hover{
+    border: 3px solid rgb(42, 117, 230);
+
 }
 .blog-info{
     margin-left: 16px;
@@ -124,7 +135,7 @@ hr{
 .course{
     width:252.42px;
    height: 270px;
-   box-shadow: 5px 5px 15px grey;
+   box-shadow: 3px 3px 10px grey;
    padding: 13px 18px 16px 11px;
    border-radius: 10px;
    
@@ -158,6 +169,11 @@ height: 104px;
  Media Query for Mobiles 
  ----------------------*/
 @media  only screen and (max-width:688px){
+    .nav-bar{
+        width:100%;
+        flex-wrap: wrap
+
+    }
     .container{
         width: 100%;
     }
@@ -180,6 +196,9 @@ height: 104px;
 Media Query for  Tablets
 -----------------------*/
 @media only screen and (min-width:689px) and (max-width:992px){
+    .nav-bar{
+        width: 100%;
+    }
     .container{
         width: 100%;
     }
