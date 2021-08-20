@@ -1,206 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font styles -->
 
-    <script src="https://kit.fontawesome.com/8bbdb60958.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/8bbdb60958.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- style sheets -->
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-
-<body>
+  <body>
     <!-- header start -->
-    <header>
+    <header class="heading-part">
+      <div class="nav-container">
         <!-- navbar starts -->
         <nav class="nav-bar">
-            <span>
-                <a href="#"><i class="far fa-lightbulb"></i></a>
-                <a href="#">Idea</a>
-            </span>
+          <span>
+            <a href="#"><i class="far fa-lightbulb"></i></a>
+            <a href="#">Idea</a>
+          </span>
 
-            <span>
-                <a href="#">Home</a>
-                <a href="#">Work</a>
-                <a href="#">About Us</a>
-
-            </span>
+          <span>
+            <a href="#">Home</a>
+            <a href="#">Work</a>
+            <a href="#">About Us</a>
+          </span>
         </nav>
         <!-- navbar ends -->
-
+      </div>
     </header>
     <!-- header end -->
     <main>
-        <!-- top players and top blogs -->
-        <section class="container">
-            <h2 class="section-title">Top Players</h2>
-            <div class="top-players">
-                <div class="players">
-                    <div class="player">
-                        <img src="images/players/player-1.png" alt="">
-                        <h3 class="player-name">John Smith</h3>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-2.png" alt="">
-                        <h3 class="player-name">Pro Rasel</h3>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-3.png" alt="">
-                        <h3 class="player-name">Abu Sufian</h3>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-4.png" alt="">
-                        <h3 class="player-name">Rahat Khan</h3>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-5.png" alt="">
-                        <h3 class="player-name">David Luiz</h3>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-6.png" alt="">
-                        <h3 class="player-name">Alan Walker</h3>
-                    </div>
-                </div>
+      <!-- top players and top blogs -->
+      <section class="container">
+        <h2 class="section-title">
+          <span id="players-title">Top Players</span>
+        </h2>
+        <div class="top-players">
+          <div class="players">
+            <div class="player">
+              <img src="images/players/player-1.png" alt="" />
+              <h3 class="player-name">John Smith</h3>
             </div>
-            <hr />
-            <div class="top-blogs">
-                <h2 class="section-title">Top Blog</h2>
-                <div class="blogs">
-                    <article class="blog">
-                        <div class="thumbnail">
-                            <img src="images/blogs/blog-1.png" alt="">
-                        </div>
-                        <div class="blog-info">
-                            <h3 class="blog-title">13 of My Favorite
-                                UI/UX Goodies</h3>
-                            <p class="blog-author">By<a href=""> Danny Sapio</a></p>
-
-                        </div>
-                    </article>
-                    <article class="blog">
-                        <div class="thumbnail">
-                            <img src="images/blogs/blog-2.png" alt="">
-                        </div>
-                        <div class="blog-info">
-                            <h3 class="blog-title">UI cheat sheet:
-                                list vs grids</h3>
-                            <p class="blog-author">By<a href=""> Danny Sapio</a></p>
-
-                        </div>
-                    </article>
-                    <article class="blog">
-                        <div class="thumbnail">
-                            <img src="images/blogs/blog-3.png" alt="">
-                        </div>
-                        <div class="blog-info">
-                            <h3 class="blog-title">7 typography tips
-                                for interface design</h3>
-                            <p class="blog-author">By<a href=""> Danny Sapio</a></p>
-
-                        </div>
-                    </article>
-                    <article class="blog">
-                        <div class="thumbnail">
-                            <img src="images/blogs/blog-4.png" alt="">
-                        </div>
-                        <div class="blog-info">
-                            <h3 class="blog-title">Your logo is
-                                copied</h3>
-                            <p class="blog-author">By<a href=""> Danny Sapio</a></p>
-
-                        </div>
-                    </article>
-                </div>
+            <div class="player">
+              <img src="images/players/player-2.png" alt="" />
+              <h3 class="player-name">Pro Rasel</h3>
             </div>
-        </section>
-        <!-- latest courses -->
-        <section class="container">
-            <h2 class="section-title">Latest Course</h2>
-            <div class="courses">
-                <div class="course">
-                    <div class="course-pic"><img src="images/courses/course-1.png"></div>
-                    <div class="course-detail">
-                        <div class="course-title">React - The Complete Guide 2020</div>
-                        <p class="course-author">Reed Krakoff</p>
-                        <div class="course-info">
-                            <div class="rating-star">
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star empty"></i>
-                                <span class="course-rating">4.5</span>
-                            </div>
-
-                            <div class="course-time">
-                                <i class="far fa-clock">1:30 hr</i>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="course">
-                    <div class="course-pic"><img src="images/courses/course-2.png"></div>
-                    <div class="course-detail">
-                        <div class="course-title">Powerpoint 2020
-                            Master Powerpoint Cour
-                        </div>
-                        <p class="course-author">Walter Scott</p>
-                        <div class="course-info">
-                            <div class="rating-star">
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star empty"></i>
-                                <span class="course-rating">4.5</span>
-                            </div>
-
-                            <div class="course-time">
-                                <i class="far fa-clock">1:20 hr</i>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="course">
-                    <div class="course-pic"><img src="images/courses/course-3.png"></div>
-                    <div class="course-detail">
-                        <div class="course-title">The Complete JavaScript Course 2020</div>
-                        <p class="course-author">Reed Krakoff</p>
-                        <div class="course-info">
-                            <div class="rating-star">
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star empty"></i>
-                                <span class="course-rating">4.5</span>
-                            </div>
-
-                            <div class="course-time">
-                                <i class="far fa-clock">1:30 hr</i>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
+            <div class="player">
+              <img src="images/players/player-3.png" alt="" />
+              <h3 class="player-name">Abu Sufian</h3>
             </div>
+            <div class="player">
+              <img src="images/players/player-4.png" alt="" />
+              <h3 class="player-name">Rahat Khan</h3>
+            </div>
+            <div class="player">
+              <img src="images/players/player-5.png" alt="" />
+              <h3 class="player-name">David Luiz</h3>
+            </div>
+            <div class="player">
+              <img src="images/players/player-6.png" alt="" />
+              <h3 class="player-name">Alan Walker</h3>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="top-blogs">
+          <h2 id="blog-title" class="section-title">Top Blog</h2>
+          <div class="blogs">
+            <article class="blog">
+              <div class="thumbnail">
+                <img src="images/blogs/blog-1.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
+                <p class="blog-author">By<a href=""> Danny Sapio</a></p>
+              </div>
+            </article>
+            <article class="blog">
+              <div class="thumbnail">
+                <img src="images/blogs/blog-2.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h3 class="blog-title">UI cheat sheet: list vs grids</h3>
+                <p class="blog-author">By<a href=""> Danny Sapio</a></p>
+              </div>
+            </article>
+            <article class="blog">
+              <div class="thumbnail">
+                <img src="images/blogs/blog-3.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h3 class="blog-title">
+                  7 typography tips for interface design
+                </h3>
+                <p class="blog-author">By<a href=""> Danny Sapio</a></p>
+              </div>
+            </article>
+            <article class="blog">
+              <div class="thumbnail">
+                <img src="images/blogs/blog-4.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h3 class="blog-title">Your logo is copied</h3>
+                <p class="blog-author">By<a href=""> Danny Sapio</a></p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- latest courses -->
+      <section class="container">
+        <h2 class="section-title">Latest Course</h2>
+        <div class="courses">
+          <div class="course">
+            <div class="course-pic">
+              <img src="images/courses/course-1.png" />
+            </div>
+            <div class="course-detail">
+              <div class="course-title">React - The Complete Guide 2020</div>
+              <p class="course-author">Reed Krakoff</p>
+              <div class="course-info">
+                <div class="rating-star">
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star empty"></i>
+                  <span class="course-rating">4.5</span>
+                </div>
 
-        </section>
+                <div class="course-time">
+                  <i class="far fa-clock">1:30 hr</i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-pic">
+              <img src="images/courses/course-2.png" />
+            </div>
+            <div class="course-detail">
+              <div class="course-title">
+                Powerpoint 2020 Master Powerpoint Cour
+              </div>
+              <p class="course-author">Walter Scott</p>
+              <div class="course-info">
+                <div class="rating-star">
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star empty"></i>
+                  <span class="course-rating">4.5</span>
+                </div>
+
+                <div class="course-time">
+                  <i class="far fa-clock">1:20 hr</i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-pic">
+              <img src="images/courses/course-3.png" />
+            </div>
+            <div class="course-detail">
+              <div class="course-title">
+                The Complete JavaScript Course 2020
+              </div>
+              <p class="course-author">Reed Krakoff</p>
+              <div class="course-info">
+                <div class="rating-star">
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star empty"></i>
+                  <span class="course-rating">4.5</span>
+                </div>
+
+                <div class="course-time">
+                  <i class="far fa-clock">1:30 hr</i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
-</body>
-
+    <!-- JS -->
+    <script src="JS/players.js"></script>
+  </body>
 </html>
